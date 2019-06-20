@@ -1,5 +1,8 @@
 #!/bin/bash -e
 # shellcheck disable=SC2119
+IMG_NAME=UltimateOne
+FIRST_USER_NAME=one
+FIRST_USER_PASS=ultimate
 run_sub_stage()
 {
 	log "Begin ${SUB_STAGE_DIR}"
