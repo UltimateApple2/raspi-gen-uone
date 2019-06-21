@@ -7,8 +7,9 @@ update-alternatives --install /usr/bin/gnome-www-browser \
   gnome-www-browser /usr/bin/chromium-browser 86
 cd /opt
 echo "Cloning Current Arduino Build"
-git clone --depth 1 https://github.com/arduino/Arduino.git arduino
+wget https://github.com/arduino/Arduino/archive/master.zip -O arduino-master.zip
+unzip arduino-master.zip
 echo "Cloned..."
-cd arduino/build
+cd Arduino-master/build
 echo "Changed directory..."
 yes "" | ant dist
