@@ -12,5 +12,11 @@ gldriver-test
 fonts-droid-fallback
 fonts-liberation2
 obconf
-arduino
 avrdude
+git 
+make 
+gcc 
+ant 
+openjdk-8-jdk 
+unzip
+openjfx
