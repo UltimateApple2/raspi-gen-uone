@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # pi-gen
 
 _Tool used to create the raspberrypi.org Raspbian images_
@@ -316,3 +317,7 @@ To resolve this, ensure that the following files are available (install them if 
 ```
 
 You may also need to load the module by hand - run `modprobe binfmt_misc`.
+=======
+# raspi-gen-uone
+Build Raspberry Pi 3b+ images for use with Raspberry Pi 3B+ For Ultimate One Lite / Ultimate One Pro
+>>>>>>> 0021663caac7da1cb8b3057d0bff116b17aa2322
